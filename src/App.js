@@ -91,9 +91,34 @@ const App = () => {
     })
 
     return (
-    <>
-      <h1>Привет, Солнце!</h1>
-    </>
+        <>
+            <h3>Demo app 0.1.0</h3>
+            <h3>Переключи раскладку на English</h3>
+            <div style={{display: "flex"}}>
+                <button onClick={playDo} style={{height: 100, width: 30, marginTop: 40}}>z</button>
+
+                <button onClick={playDoDiez} style={{background: "black", color: "white", height: 100, width: 30}}>s</button>
+
+                <button onClick={playRe} style={{height: 100, width: 30, marginTop: 40}}>x</button>
+
+                <button onClick={playReDiez} style={{background: "black", color: "white", height: 100, width: 30}}>d</button>
+
+                <button onClick={playMi} style={{height: 100, width: 30, marginTop: 40}}>c</button>
+                <button onClick={playFa} style={{height: 100, width: 30, marginTop: 40}}>v</button>
+
+                <button onClick={playFaDiez} style={{background: "black", color: "white", height: 100, width: 30}}>g</button>
+
+                <button onClick={playSol} style={{height: 100, width: 30, marginTop: 40}}>b</button>
+                <button onClick={playSolDiez} style={{background: "black", color: "white", height: 100, width: 30}}>b</button>
+
+                <button onClick={playLya} style={{height: 100, width: 30, marginTop: 40}}>n</button>
+
+                <button onClick={playLyaDiez} style={{background: "black", color: "white", height: 100, width: 30}}>j</button>
+
+                <button onClick={playSi} style={{height: 100, width: 30, marginTop: 40}}>m</button>
+                <button onClick={playDoTwo} style={{height: 100, width: 30, marginTop: 40}}>,</button>
+            </div>
+        </>
   );
 }
 
